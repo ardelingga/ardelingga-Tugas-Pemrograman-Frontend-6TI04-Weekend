@@ -1,4 +1,4 @@
-const { users, all, store, update, destroy } = require("../task");
+const { users, all, store, update, destroy } = require("../task.js");
 
 describe("# Menjalankan Test: Array of Object Users", () => {
   const keys = ["name", "age", "major"];
